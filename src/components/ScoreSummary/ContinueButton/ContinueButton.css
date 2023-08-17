@@ -1,0 +1,16 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-gray-blue);
+  color: white;
+  font-weight: 700;
+  border-radius: 28px;
+  height: 56px;
+  transition: all ease-in-out 150ms;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--light-royal-blue-bg);
+}

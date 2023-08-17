@@ -1,0 +1,14 @@
+.score-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 28px 32px 28px 32px;
+}
+
+@media (min-width: 768px) {
+  .score-summary {
+    padding: 42px 40px 42px 40px;
+    width: 368px;
+    gap: 0;
+  }
+}

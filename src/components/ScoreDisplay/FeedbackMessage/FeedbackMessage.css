@@ -1,0 +1,34 @@
+.feedback-message {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.feedback-message h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.feedback-message p {
+  color: var(--light-lavender);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .feedback-message {
+    gap: 18px;
+  }
+
+  .feedback-message h1 {
+    font-size: 32px;
+  }
+
+  .feedback-message p {
+    font-size: 18px;
+  }
+}
